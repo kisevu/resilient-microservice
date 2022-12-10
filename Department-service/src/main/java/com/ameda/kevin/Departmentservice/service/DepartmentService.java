@@ -16,7 +16,7 @@ public class DepartmentService {
     private DepartmentRepository departmentRepository;
 
     public Department saveDepartment(Department department) {
-        log.info("inside saveDepartment of Departmentservice.");
+        log.info("inside saveDepartment of Department service.");
         return departmentRepository.save(department);
     }
 
